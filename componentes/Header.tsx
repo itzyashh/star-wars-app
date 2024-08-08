@@ -8,7 +8,7 @@ type HeaderProps = {
 
 const Header: React.FC<HeaderProps> = ({title}) => {
   return (
-    <View>
+    <View style={GlobalStyles.headerContainer}>
       <Text style={GlobalStyles.header}>{title}</Text>
     </View>
   )
